@@ -1,16 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Gallery from './state';
 
-function AppTest() {
+ function AppTest() {
   return (
     /* <div id="root">         
-    </div> */
+    </div>  */
     <div id="root">
+      <Gallery />
       
     </div>
 
       
   );
-}
+} 
+
+
+
+
 
 export default AppTest;

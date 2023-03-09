@@ -43,7 +43,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 */
 
-
+/* props 
 function formatDate(date) {
   return date.toLocaleDateString();
 }
@@ -85,3 +85,8 @@ root.render(
     text={comment.text}
     author={comment.author} />
 );
+*/
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<AppTest />);
+
