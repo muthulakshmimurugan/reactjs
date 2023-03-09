@@ -5,6 +5,7 @@ import Clock from './lifecycle';
 import Toggle from './events';
 import LoginControl from './conditionalRendering';
 import Mailbox from './inlineIfConditional';
+import List from './renderingList';
 
  function AppTest() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
@@ -17,6 +18,7 @@ import Mailbox from './inlineIfConditional';
       <Toggle />
       <LoginControl />
       <Mailbox unreadMessages={messages} />
+    <List />
     </div>
 
       
