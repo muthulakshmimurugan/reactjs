@@ -9,6 +9,8 @@ import List from './renderingList';
 import MyForm from './forms';
 import EssayForm from './textarea';
 import FlavorForm from './select';
+import Accordion from './sharingComponents';
+import Calculator from './calculator';
 
  function AppTest() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
@@ -24,6 +26,8 @@ import FlavorForm from './select';
       <MyForm />
      <EssayForm /> 
     <FlavorForm />
+    <Accordion />
+    <Calculator />
     </div>
 
       
