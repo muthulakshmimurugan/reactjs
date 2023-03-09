@@ -11,6 +11,7 @@ import EssayForm from './textarea';
 import FlavorForm from './select';
 import Accordion from './sharingComponents';
 import Calculator from './calculator';
+import SignUpDialog from './composition';
 
  function AppTest() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
@@ -28,6 +29,7 @@ import Calculator from './calculator';
     <FlavorForm />
     <Accordion />
     <Calculator />
+    <SignUpDialog />
     </div>
 
       
