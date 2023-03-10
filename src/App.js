@@ -14,6 +14,10 @@ import Calculator from './calculator';
 import SignUpDialog from './composition';
 import BlurExample from './blur';
 
+import React, { Suspense } from 'react';
+
+const OtherComponent = React.lazy(() => import('./OtherComponent'));
+
  function AppTest() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
   return (
@@ -32,6 +36,13 @@ import BlurExample from './blur';
     <Calculator />
     <SignUpDialog />
     <BlurExample />
+
+    <div>
+      <Suspense fallback={<div>Loading...</div>}>
+        <OtherComponent />
+      </Suspense>
+    </div>
+    
     </div>
 
       
