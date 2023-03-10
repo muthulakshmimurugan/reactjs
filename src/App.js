@@ -12,6 +12,7 @@ import FlavorForm from './select';
 import Accordion from './sharingComponents';
 import Calculator from './calculator';
 import SignUpDialog from './composition';
+import BlurExample from './blur';
 
  function AppTest() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
@@ -30,6 +31,7 @@ import SignUpDialog from './composition';
     <Accordion />
     <Calculator />
     <SignUpDialog />
+    <BlurExample />
     </div>
 
       
