@@ -15,6 +15,7 @@ import SignUpDialog from './composition';
 import BlurExample from './blur';
 
 import ErrorBoundaries from './errorBoundary';
+import FancyFwdRef from './forwardingRef';
 
 
 
@@ -38,7 +39,7 @@ import ErrorBoundaries from './errorBoundary';
     <BlurExample />
 
     <ErrorBoundaries />
-    
+  <FancyFwdRef />    
 
     </div>
 
