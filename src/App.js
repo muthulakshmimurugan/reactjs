@@ -14,9 +14,9 @@ import Calculator from './calculator';
 import SignUpDialog from './composition';
 import BlurExample from './blur';
 
-import React, { Suspense } from 'react';
+import ErrorBoundaries from './errorBoundary';
 
-const OtherComponent = React.lazy(() => import('./OtherComponent'));
+
 
  function AppTest() {
   const messages = ['React', 'Re: React', 'Re:Re: React'];
@@ -37,12 +37,9 @@ const OtherComponent = React.lazy(() => import('./OtherComponent'));
     <SignUpDialog />
     <BlurExample />
 
-    <div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <OtherComponent />
-      </Suspense>
-    </div>
+    <ErrorBoundaries />
     
+
     </div>
 
       
