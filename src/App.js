@@ -16,6 +16,7 @@ import BlurExample from './blur';
 
 import ErrorBoundaries from './errorBoundary';
 import FancyFwdRef from './forwardingRef';
+import Table from './table';
 
 
 
@@ -39,7 +40,8 @@ import FancyFwdRef from './forwardingRef';
     <BlurExample />
 
     <ErrorBoundaries />
-  <FancyFwdRef />    
+  <FancyFwdRef />   
+  <Table /> 
 
     </div>
 
