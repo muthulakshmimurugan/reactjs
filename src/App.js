@@ -18,6 +18,8 @@ import ErrorBoundaries from './errorBoundary';
 import FancyFwdRef from './forwardingRef';
 import Table from './table';
 
+import Loading from './loadingHOC';
+
 
 
  function AppTest() {
@@ -42,7 +44,10 @@ import Table from './table';
     <ErrorBoundaries />
   <FancyFwdRef />   
   <Table /> 
+  <Loading />
 
+
+  
     </div>
 
       
