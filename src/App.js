@@ -20,6 +20,8 @@ import Table from './table';
 
 import Loading from './loadingHOC';
 
+import BlueDatePicker from './warningButton';
+
 
 
  function AppTest() {
@@ -45,6 +47,7 @@ import Loading from './loadingHOC';
   <FancyFwdRef />   
   <Table /> 
   <Loading />
+  <BlueDatePicker />
 
 
   
